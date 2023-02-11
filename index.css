@@ -1,0 +1,451 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+    list-style: none;
+}
+
+a {
+    list-style: none;
+}
+
+/* --------------------------HEADER START-------------*/
+
+.header {
+    background-color:  #080808;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: left;
+}
+.header_logo {
+    display: flex;
+}
+.logo_img {
+    margin-top: 5px;
+    margin-left: 250px;
+    width: 60px;
+    height: 60px;
+}
+
+.logo_text {
+    margin-top: 18px;
+    margin-left: 40px;
+    color: #28b1ff;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.header_items {
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    margin-left: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.nav_meny {
+    margin-left: 20px;
+    height: 30px;
+    transition: 0.7s;
+}
+
+.nav_meny:hover {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* --------------------------HEADER END-------------*/
+
+/* -----------------------------MAIN START----------------------- */
+
+.main {
+    width: 100%;
+    height: 600px;
+
+}
+
+.main_story-company {
+    background-image: url(./img/bakground\ 1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin: 0px auto;
+    padding-top: 250px;
+    text-align: center;
+    color: rgb(255, 254, 254);
+}
+
+.span_story-text {
+    color: #28b1ff;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family: monospace;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.span_story-text:hover {
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+
+.main_story-text {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+/* -----------------BUY PLANS TO SERVERS------------ */
+
+.main_plans-to-servers {
+    display: column;
+    background-image: url(./img/bacground\ 2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1400px;
+    padding-top: 250px;
+}
+
+/* -----------------------------BUTTON TO BUY LINKS------------------------- */
+
+.button-to-plans {
+    width: 100px;
+    height: 20px;
+    border-radius: 33px;
+    margin-left: 40px;
+    background-color: #28b1ff;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.button-to-plans:hover {
+    background-color: #29f6a0;
+    width: 120px;
+    height: 28px;
+}
+
+.first-sulka {
+    text-decoration: none;
+}
+
+/* --------------------PLAN BUY 1--------------- */
+
+.main_plan-1 {
+    display: flex;
+    background-color: rgb(26, 24, 40);
+    margin: 0px auto;
+    border: 3px solid #28b1ff;
+    width: 900px;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main_plan-1:hover {
+    border: 3px solid #b728ff;
+}
+
+.plan-1-more-text {
+    display: column;
+}
+
+.img-to-plans-1 {
+    margin-left: 10px;
+    margin-top: 24px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.img-to-plans-1:hover {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+
+
+.h2-1 {
+    color: #28b1ff;
+    font-size: 35px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin: 25px;
+    margin-left: 50px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.h2-1:hover {
+    margin-left: 100px;
+}
+
+.h3-1 {
+    width: 550px;
+    height: 300px;
+    color: #fff;
+    font-size: 25px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    transition: 0.9s;
+}
+
+.h3-1:hover {
+    color: #5aff28;
+    margin-left: 70px;
+}
+
+
+
+/* --------------------------------PLAN BUY 2------------------------ */ 
+
+.main_plan-2 {
+    display: flex;
+    background-color: rgb(26, 24, 40);
+    margin: 50px auto;
+    border: 3px solid #28b1ff;
+    width: 900px;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main_plan-2:hover {
+    background-color: #02031e;
+    border: 3px solid #b728ff;
+}
+
+.plan-2-text {
+    display: column;
+}
+
+.h2-1 {
+    color: #28b1ff;
+    font-size: 35px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin: 25px;
+    margin-left: 50px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.h2-2:hover {
+    margin-left: 100px;
+}
+
+.h3-2 {
+    width: 550px;
+    height: 300px;
+    color: #fff;
+    font-size: 25px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    transition: 0.9s;
+}
+
+.h3-2:hover {
+    color: #5aff28;
+    margin-left: 70px;
+}
+
+.img-to-plans-2 {
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 24px;
+    width: 200px;
+    height: 200px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.img-to-plans-2:hover {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_plan-3 {
+    display: flex;
+    background-color: rgb(26, 24, 40);
+    margin: 50px auto;
+    border: 3px solid #28b1ff;
+    width: 900px;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main_plan-3:hover {
+    background-image: url(./img/srek\ meme.jpeg);
+    background-size: cover;
+    border: 3px solid #b728ff;
+}
+
+/* .plan-3-text {
+} */
+
+.h2-3 {
+    color: #28b1ff;
+    font-size: 35px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin: 25px;
+    margin-left: 50px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.h2-3:hover {
+    margin-left: 100px;
+}
+
+.h3-3 {
+    width: 550px;
+    height: 300px;
+    color: #fff;
+    font-size: 25px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    transition: 0.9s;
+}
+
+.h3-3:hover {
+    color: #5aff28;
+    margin-left: 70px;
+}
+
+.img-to-plans-3 {
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 24px;
+    width: 200px;
+    height: 200px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.img-to-plans-3:hover {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+
+
+
+
+.main-perexod {
+    width: 100%;
+    height: 300px;
+    background-color: #01010c;
+}
+
+.span-tu-perexod {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.span-tu-perexod2 {
+    color: #28b1ff;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.h2-perexod {
+    color: #28b1ff;
+    font-size: 35px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    padding-top: 100px;
+
+    text-align: center;
+}
+
+.h1-donatu {
+    color: #ffffff;
+    font-size: 38px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    text-align: center;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.h1-donatu:hover {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.perexod-poloska {
+    width: 100%;
+    height: 8px;
+    background-color: #28b1ff;
+    
+}
+
+.perexod-poloska2 {
+    width: 100%;
+    height: 8px;
+    background-color: #28b1ff;
+    margin-top: 90px;
+}
+
+/* -----------------------------MAIN END----------------------- */
+
+/* ----------------------------FOOTER START-------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: #1919f0;
+}
+
+.footer-insta {
+}
+.insta-link {
+}
+.footer-tiktok {
+}
+.tiktok-link {
+}
+
+/* ----------------------------FOOTER END-------------- *
